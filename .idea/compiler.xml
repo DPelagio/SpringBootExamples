@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thymeleaf" />
+        <module name="Template (1)" />
+        <module name="kafkademo" />
+        <module name="exercise1" />
+        <module name="Template" />
+        <module name="qualifier" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exercise1" target="1.8" />
+      <module name="kafkademo" target="11" />
+      <module name="qualifier" target="11" />
+      <module name="Template" target="1.8" />
+      <module name="Template (1)" target="11" />
+      <module name="thymeleaf" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Template" options="-parameters" />
+      <module name="Template (1)" options="-parameters" />
+      <module name="exercise1" options="-parameters" />
+      <module name="kafkademo" options="-parameters" />
+      <module name="qualifier" options="-parameters" />
+      <module name="thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>

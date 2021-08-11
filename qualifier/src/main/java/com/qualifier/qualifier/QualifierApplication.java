@@ -24,7 +24,7 @@ public class QualifierApplication implements CommandLineRunner{
 		// System.out.println("Holaaaa!!!");
 		String message = "Hola";
 		LOG.info(message);
-		service.registar("pepe");
+		service.registar("Daniel Pelagio");
 	}
 
 }
