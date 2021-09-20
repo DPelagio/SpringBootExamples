@@ -5,4 +5,5 @@ package com.example.strategy.service;
  */
 public interface Strategy {
   int operation(int number1, int number2);
+  boolean applu(int x);
 }

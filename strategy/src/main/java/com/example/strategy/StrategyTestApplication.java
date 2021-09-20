@@ -12,13 +12,11 @@ public class StrategyTestApplication {
   private static Logger log = LoggerFactory.getLogger(StrategyTestApplication.class);
 
   public static void main(String[] args) {
-    Context context = new Context(new OperationAdd());
     //https://ravthiru.medium.com/strategy-design-pattern-with-in-spring-boot-application-2ff5a7486cd8
     //https://www.baeldung.com/java-strategy-pattern
     //https://refactoring.guru/es/design-patterns/strategy/java/example
     //https://www.geeksforgeeks.org/strategy-pattern-set-1/
     SpringApplication.run(StrategyTestApplication.class, args);
-    log.info("5 + 10 = " + context.operationResult(5,10));
   }
 
 }
